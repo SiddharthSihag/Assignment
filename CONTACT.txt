@@ -1,0 +1,4 @@
+Name = Siddharth Sihag
+E-mail = sihagsiddharth9@gmail.com 
+Phone = +91 7206044339
+Github = https://github.com/SiddharthSihag
