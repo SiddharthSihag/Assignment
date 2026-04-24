@@ -10,13 +10,13 @@ Backend REST API for a prototype attendance management system for the SkillBridg
 
 | | |
 |---|---|
-| **Base URL** | `https://your-app.onrender.com` *(update after deployment)* |
-| **Docs (Swagger)** | `https://your-app.onrender.com/docs` |
+| **Base URL** | `assignment-production-e91b.up.railway.app` *(update after deployment)* |
+| **Docs (Swagger)** | `assignment-production-e91b.up.railway.app/docs` |
 | **Health check** | `GET /` |
 
 ### Quick login test against live deployment
 ```bash
-curl -s -X POST https://your-app.onrender.com/auth/login \
+curl -s -X POST assignment-production-e91b.up.railway.app/auth/login \
   -H "Content-Type: application/json" \
   -d '{"email":"trainer1@sb.com","password":"trainer123"}' | python -m json.tool
 ```
